@@ -1,10 +1,14 @@
+% TeXPlate
+% --------
+% A simple LaTeX starting template.
+
 \documentclass[10pt,a4paper]{article}
 \usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{amsthm}
-\usepackage[margin=2cm,bottom=2cm,top=2cm]{geometry}
+\usepackage[margin=2cm,bottom=2cm,top=1cm]{geometry}
 \usepackage{color}
 
 % Package wasysym for smileys and others \smiley
@@ -13,7 +17,7 @@
 % Vectornorm \vectornorm{}
 \newcommand{\vectornorm}[1]{\left|\left|#1\right|\right|}
 
-% Number descriptions
+% Important Number Set Shortcuts | \R => Real Numbers
 \newcommand{\R}{\mathbb{R}} % Real Numberss
 \newcommand{\Z}{\mathbb{Z}} % Integers
 \newcommand{\N}{\mathbb{N}} % Natural Numbers
@@ -44,26 +48,30 @@ stringstyle=\color[rgb]{0.627,0.126,0.941},
 basicstyle=\ttfamily\fontsize{10}{12}\selectfont
 }
 
-% dice
-\usepackage{epsdice}
-
-%recycle
-\usepackage{recycle}
-
 %hyperlinks
 
 \usepackage{hyperref}
 \hypersetup{colorlinks=true,urlcolor=blue,urlbordercolor={1 1 1}}
 
-\author{Matthias Giger\\\footnotesize 10-921-195}
-\title{\textbf{\huge Numerical Methods for CSE - Problem Sheet X}}
-% \title{\textbf{Wahrscheinlichkeit \& Statistik - Übungsserie X}}
-\date{ETHZ - \today}
+\author{Your Name\\\footnotesize 123-456-789}
+\title{\textbf{\huge Subject - Problem Sheet X}}
+\date{UNIV - \today}
 
 \begin{document}
 \maketitle
 
-\section*{Exercise X}
+\section*{Exercise 1}
+
+\subsection*{a)}
+
+\begin{center}
+\includegraphics[scale=0.75]{img/image.jpg}
+\end{center}
+
+\subsection*{b)}
+
+
+\section*{Exercise 2}
 
 \subsection*{a)}
 
@@ -71,24 +79,12 @@ basicstyle=\ttfamily\fontsize{10}{12}\selectfont
 \subsection*{b)}
 
 
-\section*{Exercise Y}
+\section*{Exercise 3}
 
 \subsection*{a)}
 
 
 \subsection*{b)}
 
-
-\section*{Exercise Z}
-
-\subsection*{a)}
-
-
-\subsection*{b)}
-
-
-
-% Thank you for recycling this afterwards or reading it digitally, which is even better.
-\begin{center}Thank {\recycle} you!\end{center}
 
 \end{document}
